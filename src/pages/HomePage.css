@@ -1,0 +1,7 @@
+
+@media (max-width: 480px) {
+  .icon-boxes{
+    display: flex;
+    flex-direction: column !important;
+  }  
+}

@@ -1,4 +1,5 @@
 {
+  "homepage": "http://farhadggu.github.io/CvResume",
   "name": "test",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "axios": "^1.4.0",
+    "gh-pages": "^6.0.0",
     "jss-rtl": "^0.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,6 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

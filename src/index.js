@@ -16,7 +16,7 @@ const cacheRtl = createCache({
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <CacheProvider value={cacheRtl}>
-    <BrowserRouter>
+    <BrowserRouter basename={"http://farhadggu.github.io/CvResume/"}>
       <App />
     </BrowserRouter>
   </CacheProvider>

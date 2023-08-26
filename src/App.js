@@ -6,17 +6,23 @@ import HomePage from "./pages/HomePage";
 import "./App.css";
 import CredentialsPage from "./pages/CredentialsPage";
 import WorksPage from "./pages/WorksPage";
+import MainLayout from "./layout/MainLayout";
+import AboutPage from "./pages/AboutPage";
+import { useEffect, useState } from "react";
 
 function App() {
   const [theme, colorMode] = useMode();
 
   return (
     <ColorModeContext.Provider value={colorMode}>
-        <Routes>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/credentials" element={<CredentialsPage />} />
           <Route exact path="/works" element={<WorksPage />} />
-        </Routes>
+          <Route exact path="/about" element={<AboutPage />} />
+        </Route>
+      </Routes>
     </ColorModeContext.Provider>
   );
 }

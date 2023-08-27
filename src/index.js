@@ -5,7 +5,7 @@ import rtlPlugin from "stylis-plugin-rtl";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 import { prefixer } from "stylis";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 
 // Create rtl cache
 const cacheRtl = createCache({
@@ -16,8 +16,8 @@ const cacheRtl = createCache({
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <CacheProvider value={cacheRtl}>
-    <BrowserRouter basename={"http://farhadggu.github.io/CvResume/"}>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </CacheProvider>
 );

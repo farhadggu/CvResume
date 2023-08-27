@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [theme, colorMode] = useMode();
-
+  console.log("theme")
   return (
     <ColorModeContext.Provider value={colorMode}>
       <Routes>

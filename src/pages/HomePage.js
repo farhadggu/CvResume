@@ -13,7 +13,7 @@ export default function HomePage() {
           "https://api.github.com/users/farhadggu/repos",
           {
             headers: {
-              Authorization: "Bearer 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",
+              Authorization: "Bearer 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",
             },
           }
         );

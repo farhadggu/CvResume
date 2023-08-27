@@ -10,7 +10,7 @@ export default function CredentialsPage() {
               <div class="shadow-box">
                 <img src="assets/images/bg1.png" alt="BG" class="bg-img" />
                 <div class="img-box">
-                  <img src="assets/images/farhadggu.jpg" alt="About Me" />
+                  <img src="assets/images/farhadggu2.jpg" alt="About Me" />
                 </div>
                 <h2>Farhad Gharagozlou</h2>
                 <p>@farhadggu</p>
@@ -96,7 +96,30 @@ export default function CredentialsPage() {
                 <h3>NahalGasht, Panafor</h3>
                 <h5>FrontEnd Developer (ReactJS/VueJS)</h5>
                 <p>
-                  at 7 December 2022, I joined NahalGasht Panafor Team as a FrontEnd Devloper
+                  at 7 December 2022, I joined NahalGasht Panafor Team as a
+                  FrontEnd Devloper 2 تا پروژه داشبوردی برای مدیریت مشتریانی که
+                  درخواست ویزا میدهند در دستور توسعه قرار گرفت پروژه اول برای
+                  استفاده لوکال خود شرکت بود که بتونند افرادی که درخواست ویزا
+                  میدهند مدیریت شوند پروژه دوم به صورت آنلاین برای استفاده
+                  کاربران توسعه یافت تا کاربران با ثبت نام و پر کردن اطلاعات خود
+                  درخواست خود را برای ویزا صادر کنند یکی از مهمترین چالش های این
+                  پروژه ساخت فرم بیلدر درون سازمانی بود چرا؟ هر ویزا حدود 100
+                  الی 200 فیلد برای پر کردن داره و حداقل 4 ویزا باید در سامانه
+                  ثبت بشه تا کاربران درخواست ویزا مد نظر خود را بدهند بنابراین
+                  برای صرفه جویی در زمان و توسعه آسان تر در آینده این سیستم
+                  پیاده سازی شد اما چالش های زیادی به همراه داشت برای مثال هر
+                  فیلد دسته بندی خود و نوع ویزا خود و حتی زیر مجموعه ای از فیلد
+                  ها را در خود داشت که برای پر کردن این فیلد ها json بزرگی باید
+                  پر میشد این چالش هم بر روی داشبورد نسخه آنلاین بود
+                  ----------------------------------------------- پروژه داشبوردی
+                  Hubotel برای مدیریت هتل های که از سمت provider هایی مثل اقامت
+                  24 چنل لید و ... دریافت میکردیم با مپ کردن آن ها هتل و اتاق
+                  های خودمون رو ایجاد میکردیم از چالش های بسیار سخت این پروژه
+                  دریافت هتل ها از سمت Provider ها و مپ کردن آن ها و ارسال
+                  درخواست برای مپ شدن و نشان دادن هتل های مپ شده در بین دیتای
+                  حجیم که از سمت Provider ها ارسال میشد
+                  ------------------------------------------------
+                  
                 </p>
               </div>
               <div class="credential-edc-exp-item">
@@ -107,8 +130,7 @@ export default function CredentialsPage() {
                   After a year of learning Django, I switched to Frontend,
                   diving into React. This shift sparked my interest in web
                   development, leading me to explore modern frameworks like
-                  Next.js & MERN Stack Dev 
-                  After gaining one year of experience
+                  Next.js & MERN Stack Dev After gaining one year of experience
                   in working with React, I entered the professional work
                   environment and became a Full-Time FrontEnd Developer at
                   NahalGasht Panafor team.
@@ -139,8 +161,7 @@ export default function CredentialsPage() {
                   After a year of learning Django, I switched to Frontend,
                   diving into React. This shift sparked my interest in web
                   development, leading me to explore modern frameworks like
-                  Next.js & MERN Stack Dev
-                  After gaining one year of experience
+                  Next.js & MERN Stack Dev After gaining one year of experience
                   in working with React, I entered the professional work
                   environment and became a Full-Time FrontEnd Developer at
                   NahalGasht Panafor team.

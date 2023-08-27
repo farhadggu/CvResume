@@ -26,7 +26,7 @@ export default function AboutPage() {
                 I am Farhad Gharagozlou, a MERN Stack Developer and FrontEnd
                 React/Vue Developer with a passion for graphic design. I am a
                 Computer Engineering student as well. I was born on February 02
-                2001, I began programming in beggining university.
+                2001.
               </p>
             </div>
           </div>

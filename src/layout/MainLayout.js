@@ -103,9 +103,6 @@ export default function MainLayout() {
                 <Link to="/works">Works</Link>
               </li>
             </ul>
-            <p class="copyright">
-              &copy; All rights reserved by <span>WordPress River</span>
-            </p>
           </div>
         </div>
       </footer>

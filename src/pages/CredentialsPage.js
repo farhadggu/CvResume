@@ -118,8 +118,25 @@ export default function CredentialsPage() {
                   دریافت هتل ها از سمت Provider ها و مپ کردن آن ها و ارسال
                   درخواست برای مپ شدن و نشان دادن هتل های مپ شده در بین دیتای
                   حجیم که از سمت Provider ها ارسال میشد
-                  ------------------------------------------------
-                  
+                  ------------------------------------------------ A dashboard
+                  project was developed for managing customers who request
+                  visas. The first phase of the project was designed for the
+                  company's internal use, allowing them to manage individuals
+                  who apply for visas locally. The second phase was developed as
+                  an online platform for user access. Users could register and
+                  provide their information to submit visa requests. One of the
+                  major challenges in this project was the creation of an
+                  organizational form builder. Each visa consisted
+                  of approximately 100 to 200 fields that needed to be filled
+                  out. Additionally, a minimum of 4 visa applications had to be
+                  registered in the system for users to submit their desired
+                  visa requests. To streamline the process and ensure easier
+                  future development, this system was implemented. However, this
+                  implementation came with numerous challenges. For instance,
+                  each field had its own categorization, visa type, and even
+                  subsets of fields. Filling out these fields required
+                  populating large JSON structures. This challenge extended to
+                  the online dashboard version as well.
                 </p>
               </div>
               <div class="credential-edc-exp-item">
